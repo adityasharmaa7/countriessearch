@@ -6,7 +6,7 @@ function Card({img,name}) {
         <div className='countryflag'>
             <img src={img} alt="" />
         </div>
-      <div>
+      <div className='name'>
             <h3>{name}</h3>
       </div>
     </div>
